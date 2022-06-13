@@ -1,0 +1,61 @@
+#projects-section {
+    height: calc(80vh);
+}
+
+.projeto-titulo{
+    margin: 100px;
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.projeto-titulo::after{
+    content: "";
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 3px;
+    background-color: white;
+}
+
+.projetos{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.imagens-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.waves-effect{
+    padding-left: 20px;
+    color: antiquewhite;
+}
+
+.imagem{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+
+.paraMais{
+    background-image: url(aleatoria6.jpg);
+    max-width: 100vw;
+    width: 250px;
+    height: 140px;
+}
+
+.todas-as-imagens{
+    position: absolute;
+    background-color: black;
+}

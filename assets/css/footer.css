@@ -1,0 +1,48 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-nav a {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.footer-nav a::after {
+    content: "";
+    height: 3px;
+    width: 100%;
+    position: relative;
+    display: block;
+    background-color: #000;
+    visibility: hidden;
+    transform: scale(0);
+    transition: all 400ms ease-in-out;
+}
+
+.footer-nav a:hover::after {
+    visibility: visible;
+    transform: scale(1);
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-name {
+    font-family: 'Permanent Marker', sans-serif;
+    color: #000;
+    font-size: 3rem;
+}

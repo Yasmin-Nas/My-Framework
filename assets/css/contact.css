@@ -1,0 +1,121 @@
+#contact-section {
+    height: calc(100vh - 64px);
+    background-color: #020202;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    padding: 90px 0;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.section-title::after {
+    content: "";
+    display: inline-block;
+    background-color: #fff;
+    width: 70px;
+    height: 3px;
+}
+
+.content-container {
+    display: flex;
+    gap: 110px;
+}
+
+.left-column {
+    width: 42%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.vamos-conversar {
+    color: var(--secondary-color);
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 2.5rem;
+}
+
+.vamos-conv-text {
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.social-icons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 1.56rem;
+    text-decoration: none;
+    background-color: var(--terciary-color);
+    transition: all 400ms ease-in-out;
+}
+
+.social-icons a:hover {
+    background-color: var(--secondary-color);
+}
+
+.social-icons a .fa-brands {
+    color: #fff;
+}
+
+.right-column {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.input-container {
+    border: none;
+    resize: none;
+    color: #fff;
+}
+
+.input-container::placeholder {
+    color: #424242;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+textarea {
+    height: 104px;
+}
+
+.submit-btn {
+    background-color: var(--secondary-color);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    align-self: flex-end;
+    transition: all 400ms ease-in-out;
+}
+
+.submit-btn:focus {
+    background-color: var(--secondary-color);
+}
